@@ -2,11 +2,11 @@
   "name": "electron_chat",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": ".tmp/main/index.js",
   "scripts": {
-    "start" : "./node_modules/.bin/electron .",
-    "watch" : "./node_modules/.bin/babel --watch --out-dir .tmp src",
-    "build" : "./node_modules/.bin/babel --out-dir .tmp src",
+    "start" : "electron .",
+    "watch" : "babel --watch --out-dir .tmp src",
+    "build" : "babel --out-dir .tmp src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
